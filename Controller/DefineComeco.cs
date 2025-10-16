@@ -10,9 +10,11 @@ public class DefineComeco
 
     public static void DefinirComeco(Personagem p)
     {
-        //! Descomentar o comentário debaixo no final de tudo!!
-        // int comeco = ComecoAleatorio.Next(1, 4);
-        int comeco = 4;
+        // Temporariamente comentar a linha abaixo para facilitar o debug
+        int comeco = ComecoAleatorio.Next(1, 4);
+
+        // Temporariamente descomentar a linha abaixo para facilitar o debug
+        // int comeco = 3;
         switch (comeco)
         {
             case 1: ComecoBar.Iniciar(p); p.Passado = "Bêbado"; break;

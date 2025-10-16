@@ -17,7 +17,7 @@ public class ComecoBar : IHistoria
         ConsoleRenderer.WriteLine("Você");
         ConsoleRenderer.WriteLine("Está");
         ConsoleRenderer.WriteLine("MALUCO?");
-        var escolha = ConsoleRenderer.ReadLine(["[1] Desculpa... Não sou muito forte com álcool...", "[2] Mentira sua. Não tem como isso ser verdade.", "[3] Mil perdões, lorde! *Fazer reverência*"]);
+        int escolha = ConsoleRenderer.ReadLine(["[1] Desculpa... Não sou muito forte com álcool...", "[2] Mentira sua. Não tem como isso ser verdade.", "[3] Mil perdões, lorde! *Fazer reverência*"]);
         switch (escolha)
         {
             case 1: ConsoleRenderer.WriteLine("Bartender: Então por que caixas d'água você ainda bebe TANTO?!"); break;

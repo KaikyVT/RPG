@@ -17,7 +17,7 @@ public class ComecoFuga : IHistoria
         ConsoleRenderer.WriteLine("O cheiro é pútrido, uma mistura de urina de rato com sangue. Você mal consegue respirar.");
         ConsoleRenderer.WriteLine("Junto com você está Carla, sua antiga companheira de cela.");
         ConsoleRenderer.WriteLine("Carla(sussurrando): Estamos quase lá, aguenta mais um pouco. Sei que o cheiro está tenebroso, mas vai valer a pena...");
-        var escolha = ConsoleRenderer.ReadLine(["[1] Continuar seguindo a Carla", "[2] Dedurar a Carla na esperança de reduzir sua pena", "[3] Seguir por um caminho alternativo nos dutos"]);
+        int escolha = ConsoleRenderer.ReadLine(["[1] Continuar seguindo a Carla", "[2] Dedurar a Carla na esperança de reduzir sua pena", "[3] Seguir por um caminho alternativo nos dutos"]);
         switch (escolha)
         {
             case 1:

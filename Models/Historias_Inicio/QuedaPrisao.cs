@@ -12,7 +12,7 @@ public class QuedaPrisao : IHistoria
     public static void Iniciar(Personagem p)
     {
         ConsoleRenderer.WriteLine("Carla: VAMOS, E AÍ??");
-        var escolha = ConsoleRenderer.ReadLine(["[1] Pular. Melhor que nada né...", "[2] Jamais, tá doida?!", "[3] Buscar outra rota"]);
+        int escolha = ConsoleRenderer.ReadLine(["[1] Pular. Melhor que nada né...", "[2] Jamais, tá doida?!", "[3] Buscar outra rota"]);
         switch (escolha)
         {
             case 1:
